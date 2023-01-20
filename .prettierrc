@@ -7,5 +7,10 @@
   "jsxSingleQuote": true,
   "bracketSpacing": true,
   "bracketSameLine": true,
-  "singleAttributePerLine": true
+  "singleAttributePerLine": true,
+  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"],
+  "pluginSearchDirs": false
 }
